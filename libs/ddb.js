@@ -22,11 +22,11 @@ module.exports = args => {
 
   return new DynamoDB({
     accessKeyId: args.access_key_id,
-    secretAccessKey: args.secret_access_key,
     apiVersion: awsConfig.ddb_version,
     httpOptions: {timeout: awsConfig.ddb_default_timeout},
     maxRetries: awsConfig.ddb_default_max_retries,
     region: awsConfig.ddb_default_region,
+    secretAccessKey: args.secret_access_key,
   });
 };
 

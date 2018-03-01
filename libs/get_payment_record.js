@@ -19,6 +19,7 @@ const getItem = require('./get_item');
     id: <Lightning Invoice Id String>
     key: <Public Key Hex String>
     rev: <Rev Number>
+    status: <Status String>
     type: <Type String>
   }
 */

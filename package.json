@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "name": "ddb_payments",
+  "name": "ddb-payments",
   "scripts": {
     "test": "tap test/*.js"
   },
