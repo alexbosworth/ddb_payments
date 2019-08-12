@@ -1,5 +1,5 @@
 const tap = require('tap');
-const ddbRowFormattedValue = require('./../libs/ddb_row_formatted_value');
+const ddbRowFormattedValue = require('./../../libs/ddb_row_formatted_value');
 
 tap.same(ddbRowFormattedValue(false), {BOOL: false});
 tap.same(ddbRowFormattedValue(true), {BOOL: true});
