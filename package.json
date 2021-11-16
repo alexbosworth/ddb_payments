@@ -2,7 +2,7 @@
   "author": "Alex Bosworth",
   "dependencies": {
     "async": "3.2.0",
-    "aws-sdk": "2.663.0",
+    "aws-sdk": "2.814.0",
     "vali-date": "1.0.0"
   },
   "description": "Payment recording using DynamoDB",
