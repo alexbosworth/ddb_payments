@@ -1,19 +1,23 @@
 {
   "author": "Alex Bosworth",
   "dependencies": {
-    "async": "3.2.0",
-    "aws-sdk": "2.814.0",
+    "async": "3.2.4",
+    "aws-sdk": "2.1375.0",
     "vali-date": "1.0.0"
   },
   "description": "Payment recording using DynamoDB",
   "devDependencies": {
-    "tap": "14.10.7"
+    "@alexbosworth/tap": "15.0.12"
   },
   "license": "MIT",
   "main": "index.js",
   "name": "ddb-payments",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexbosworth/ddb_payments.git"
+  },
   "scripts": {
     "test": "tap test/libs/*.js"
   },
-  "version": "1.0.4"
+  "version": "1.0.5"
 }

@@ -1,4 +1,5 @@
-const tap = require('tap');
+const tap = require('@alexbosworth/tap');
+
 const objFromDdbRow = require('./../../libs/obj_from_ddb_row');
 
 const testBuffer = Buffer.from('00', 'hex');

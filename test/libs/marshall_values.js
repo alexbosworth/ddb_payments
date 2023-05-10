@@ -1,4 +1,5 @@
-const tap = require('tap');
+const tap = require('@alexbosworth/tap');
+
 const ddbRowFormattedValue = require('./../../libs/ddb_row_formatted_value');
 
 tap.same(ddbRowFormattedValue(false), {BOOL: false});
